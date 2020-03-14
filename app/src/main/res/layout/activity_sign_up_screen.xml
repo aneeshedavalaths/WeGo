@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121921"
+    tools:context=".SignUpScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Sign up"
+        android:textColor="#FEFEFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NameField"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/login"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#BDC7D4"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/MobileField"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Mobile number"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColor="#BDC7D4"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordField" />
+
+    <EditText
+        android:id="@+id/PasswordField"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#BDC7D4"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailField" />
+
+    <Button
+        android:id="@+id/SignButton"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login_button"
+        android:fontFamily="@font/montserrat"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FEFEFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MobileField" />
+
+    <EditText
+        android:id="@+id/EmailField"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="#BDC7D4"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameField" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

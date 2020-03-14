@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "73436415174",
+    "firebase_url": "https://wego-d9266.firebaseio.com",
+    "project_id": "wego-d9266",
+    "storage_bucket": "wego-d9266.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73436415174:android:297e8a021043eebd3f43c7",
+        "android_client_info": {
+          "package_name": "com.travelcrew.wego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73436415174-46b2uu90ldml1ooqpcf9gtvkf86rspgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.travelcrew.wego",
+            "certificate_hash": "5f544d83b9cc4a34c8d2491c2aeede8cde01a9f3"
+          }
+        },
+        {
+          "client_id": "73436415174-ud7dhhvkou7bu43eh3mgbd5rrke49cc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjI_y5Wv0AWG_VmyUEtb27Py84Bk4S3XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73436415174-ud7dhhvkou7bu43eh3mgbd5rrke49cc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
